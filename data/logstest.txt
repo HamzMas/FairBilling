@@ -1,0 +1,17 @@
+09:01:00 UserA Start
+09:01:30 UserB Start
+09:01:30 UserA Start
+09:01:45 UserA End
+09:02:00 UserA Start
+09:02:15 UserC Start
+09:02:30 UserA End
+09:03:00 UserB End
+09:03:15 UserD End
+09:03:30 UserC End
+09:03:45 UserA Start
+invalid input
+09:04:00 UserA End
+09:04:15 UserB Start
+09:04:30 UserB End
+09:04:45 UserC Start
+End UserD
