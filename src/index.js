@@ -109,9 +109,8 @@ function processLogFile(filePath) {
   });
 }
 
-// Entry point: extract file path from command-line arguments and process the file
+// Extract file path from command-line arguments and process the file
 if (require.main === module) {
-  // Your file processing code here
   const filePath = process.argv[2];
   if (!filePath) {
     console.error("Please provide a file path");
@@ -120,4 +119,5 @@ if (require.main === module) {
   }
 }
 
+// Export methods for testing with Jest
 module.exports = { isValidLine, calculateDuration };
